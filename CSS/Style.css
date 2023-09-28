@@ -1,0 +1,343 @@
+html {
+    scroll-behavior: smooth;
+}
+/* ----- Navbar Start ---------- */
+.bsi_Logo {
+    width: 100px;
+}
+.navbar-nav li a {
+    font-size: 18px;
+}
+header .navbar1 {
+    background-color: rgb(27, 153, 142);
+    opacity: 1;
+}
+header .navbar-light .navbar-toggler {
+    background-color: white;
+}
+header .navbar1 ul {
+   padding-right: 20px;
+}
+header .navbar1 ul li {
+   margin: 0px 5px;
+}
+.product_nav_li{
+   display:none
+}
+header .navbar1 ul a {
+    color: white !important;
+}
+header .navbar1 ul a:hover {
+    color: rgb(0 0 0) !important;
+    background: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.cart_li{
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+.cart_li:hover i, .cart_li:hover span{
+    color: black;
+}
+.navbar_products {
+    background-color: rgba(255, 255, 255, 0.29);
+    padding: .5rem 1rem;
+    box-shadow: rgb(27, 153, 142) 2px 2px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar_products .navbar-brand{
+   display: none;
+}
+.navbar_products ul {
+    text-align: center;
+    margin: auto;
+    border-bottom: 0px;
+    padding: 0px;
+}
+.navbar_products ul li {
+    margin: 0px;
+    padding: 0px;
+}
+.nav2_collapse{
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+.navbar_products ul a {
+    margin: 0px 17px;
+    border-radius: 0px;
+    color: black;
+    padding: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: transparent;
+}
+.navbar_products ul a:active, .navbar_products ul a:focus {
+    background-color: #1B998E;
+    color: white !important;
+}
+
+.tab_icon_on{
+   display: block;
+}
+.tab_icon_on i{
+    color: white;
+}
+.tab_icon_on span{
+   color:white;
+   right: 6% !important;
+   top: -4% !important;
+}
+.tab_icon_off{
+   display: none;
+}
+/* ---------- cart Navbar Strat -------------- */
+.cart_class{
+    position: relative;
+    color: black !important;
+}
+.cart_class i{
+    font-size: 24px;
+    position: relative;
+    margin-right: 10px;
+    color: #1B998E;
+}
+.cart_class span{
+    font-size: 18px;
+    color: #1B998E;
+}
+.products_items{
+    border-bottom: 2px solid #f5f5f5;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.products_items i{
+    font-size: 29px;
+    margin-right: 20px;
+}
+.products_items img{
+    width: 305px;
+}
+.nav2_collapse.collapse.show{
+    flex-basis: 100%;
+}
+/* ---------- cart Navbar ENd -------------- */
+/* ------- Navbar End ------------ */
+.products_section {
+    padding: 17px;
+}
+.product_none{
+}
+.product_none .product_show{
+}
+.Product_deck {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgb(27, 153, 142);
+}
+.Product_card {
+    padding: 10px;
+    border: 2px solid white;
+    margin: 5px;
+}
+.products_section .tab-content .active{
+   display: flex;
+}
+.Product_card:hover {
+    border: 2px solid rgba(242, 242, 242, 0.96);
+}
+.product_header {
+    position: relative;
+}
+.product_header img {
+    width: 324px;
+}
+.product_buy {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.3s ease 0s;
+    margin-top: 5px;
+    font-size: 17px;
+}
+.product_buy span {
+    text-align: center;
+    background: rgb(47, 104, 186);
+    color: white;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.Product_card:hover .product_buy {
+    height: 48px;
+    width: 100%;
+}
+.product_body {
+    text-align: center;
+}
+.navbar2_products {
+    color: white !important;
+    background-color: rgb(27, 153, 142) !important;
+}
+.color_whte {
+    color: white !important;
+}
+.product_body h4 {
+    font-size: 22px;
+    padding-top: 12px;
+    color: rgb(92, 98, 102);
+    font-weight: 400;
+}
+.add_to_cart{
+    cursor: pointer;
+}
+.Storage_p.header{
+    display: none;
+}
+/* -------------- Company_about Start ------------ */
+.Company_about{
+    padding: 30px 0px;
+}
+.Company_about h3{
+    font-size: 40px;
+    text-align: center;
+}
+.Company_about p{
+    text-align: center;
+    width: 67%;
+    margin: auto;
+    padding-top: 16px;
+}
+/* -------------- Company_about End ---------------- */
+/* ------------ Footer Start ---------------- */
+footer{
+    background-color: #1B998E;
+    padding: 20px 0px;
+}
+footer .ft_block1{
+    color: white;
+    margin: 10px 0px;
+}
+footer .ft_block1 span{
+    color: white;
+}
+footer .ft_block1 h4{
+    color: white;
+    font-size: 18px;
+}
+footer .ft_block1 p{
+    color: white;
+}
+footer .ft_block2{
+    text-align: right;
+    color: white;
+    font-size: 19px;
+}
+/* ------------ Footer End ---------------- */
+@media screen and (max-width: 767px) {
+    .nav2_collapse.collapse.show ul{
+        display: inline-block;
+        width: 100%;
+   }
+    .nav2_collapse.collapse.show ul li{
+       border-bottom: 1px solid white;
+       padding: 10px;
+       display: block;
+       width: 100%;
+   }
+    .navbar-nav li {
+        text-align: center;
+        margin: 10px !important;
+   }
+    .product_nav_li{
+       display:block
+   }
+    .product_nav_li li {
+       border-bottom:1px solid rgb(255, 255, 255);
+       margin: 10px !important;
+       padding: 10px;
+   }
+    .product_nav_li li:hover{
+       background:white;
+       color: black;
+       padding: 10px;
+       border-radius: 10px
+   }
+    .product_nav_li li:hover a{
+       color: black !important;
+   }
+    header .navbar1{
+       width: 100%;
+       z-index: 2;
+   }
+
+    .Company_about p{
+       width:100%
+   }
+    header .navbar1 ul a {
+        border-bottom: 1px solid rgb(255, 255, 255);
+   }
+    .product_nav_li li a{
+       border-bottom:none !important
+   }
+    #Navbar1 .nav-tabs{
+        display: block;
+        background: #1B998E;
+   }
+    #Navbar1 .nav-tabs li{
+       border-bottom: 1px solid rgb(255, 255, 255);
+       padding: .5rem 1rem;
+   }
+    #Navbar1 .nav-tabs li a{
+        color: white;
+        font-size: 20px;
+   }
+    .cart_class{
+        position: relative;
+   }
+    .cart_class i{
+        font-size: 24px;
+        position: relative;
+   }
+    .cart_class span{
+        font-size: 26px;
+        position: relative;
+        top: -12%;
+        right: -1%;
+   }
+    .productNav_colp{
+       display:block;
+        border: 2px solid white;
+       width: 57px;
+       height: 50px;
+       margin-top: 2px;
+       margin-left: auto !important;
+        outline: none !important;
+   }
+    .navbar_products button span{
+        background: white;
+        height: 3px;
+        display: block;
+        margin: 8px 0px;
+   }
+ .nav2_collapse.show.collapse  ul a:focus{
+    background:white;
+    color: #1B998E !important;
+    width: 100%;
+    max-width: 100%;
+ }
+}
+@media screen and (max-width: 480px) {
+}

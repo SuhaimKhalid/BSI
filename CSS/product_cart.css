@@ -1,0 +1,111 @@
+.Product_cart_container{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.product_cart_header{
+}
+.product_cart_header h5{
+    text-align: center;
+}
+.product_cart_header h5{}
+.product_cart_header p{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f5f5f5;
+}
+.product_cart_header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_cart_header .Storage_p{
+    font-size: 20px;
+    color: white;
+    background: #1B998E;
+    border-radius: 167px;
+    height: 35px;
+    width: 35px;
+    margin-right: 7px;
+}
+#start_shopping{
+    color: white;
+    background: #1B998E;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 9px;
+    text-decoration: none;
+}
+.St_sp{}
+.Shopping_cart_nav{
+    padding-top: 20px;
+    border-bottom: 2px solid #f5f5f5;
+    padding-bottom: 8px;
+}
+.Shopping_cart_fixed{
+    background: #1B998E;
+    color: white;
+    box-shadow: 0px 9px 16px 0px rgba(0, 0, 0, 0.49);
+}
+.p_main{}
+.sub_p{}
+.Shopping_cart_fixed .product_cart_header .Storage_p{
+    font-size: 20px;
+    color: #1B998E;
+    background: #ffffff;
+    border-radius: 167px;
+    height: 35px;
+    width: 35px;
+    margin-right: 7px;
+}
+.product_Image{}
+.product_quantity{
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    width: 17%;
+    padding: 0px 20px;
+}
+.product_details h5{
+    font-size: 17px;
+    color: #8e9193;
+}
+.product_image_container img{width: 226px;}
+.product_image_container{
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 6px 16px 4px rgba(0, 0, 0, 0.3);
+}
+.product_details{text-align: center;padding-top: 20px;}
+.Product_quantity{
+    padding-top: 5px;
+    display: flex;
+    background: #1B998E;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-radius: 5px;
+}
+.deleteall{
+    text-align: center;
+    position: absolute;
+    right: 31px;
+    top: 9px;
+}
+#quantity_p_count{}
+.Product_quantity span{
+    font-size: 20px;
+    color: white;
+}
+.deleteall i{
+    color: #1B998E !important;
+}
+.products_items i{
+    font-size: 29px;
+    color: #ffffff;
+    margin: 0px;
+    cursor: pointer;
+}
+.product_inner{}
+@media screen  and (max-width:992px){
+    .products_items{display: block !important;}
+    
+}
